@@ -90,10 +90,12 @@ nav a {
     margin-bottom: 25px;
     width: 500px;
 }
+
 main {
     max-width: 1140px;
     margin: auto;
 }
+
 .about {
     padding: 130px;
     border-radius: 10px;
@@ -110,14 +112,24 @@ main {
 }
 
 .section-description {
-    color:#757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
 }
+
 .about-info-container {
     display: flex;
     justify-content: space-around;
 }
+
 .about-info {
     text-align: center;
+}
+#What-i-do {
+    padding: 30px 150px;
+    margin-bottom: 0px;
+}
+.skills-container {
+    display: flex;
+    margin-top: 50px;
 }
