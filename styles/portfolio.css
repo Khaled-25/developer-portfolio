@@ -189,3 +189,30 @@ main section {
     text-align: center;
     margin-top: 50px;
 }
+
+footer {
+    display: flex;
+    padding: 130px 200px;
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFFF;
+    border: 0;
+    width: 100%;
+}
+.footer-icons a{
+    margin-right: 25px;
+}
